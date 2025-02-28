@@ -1,4 +1,3 @@
-```markdown
 # Customer Personality Analysis - README
 
 ## 📌 Project Overview
@@ -12,41 +11,33 @@ Customer Personality Analysis is a data science project designed to classify cus
 - **Scalability:** Modular architecture for easy updates and expansions.
 
 ## 📁 Folder Structure
-```
-📦 Customer-Personality-Analysis
- ┣ 📂 data                # Raw and processed data
- ┣ 📂 models              # Trained machine learning models
- ┣ 📂 notebooks           # Jupyter notebooks for analysis
- ┣ 📂 src                 # Source code for preprocessing & training
- ┣ 📂 streamlit_app       # Streamlit-based UI
- ┣ 📜 README.md           # Project documentation
- ┗ 📜 requirements.txt    # Python dependencies
-```
+📦 Customer-Personality-Analysis  
+ ┣ 📂 data - Raw and processed data  
+ ┣ 📂 models - Trained machine learning models  
+ ┣ 📂 notebooks - Jupyter notebooks for analysis  
+ ┣ 📂 src - Source code for preprocessing & training  
+ ┣ 📂 streamlit_app - Streamlit-based UI  
+ ┣ 📜 README.md - Project documentation  
+ ┗ 📜 requirements.txt - Python dependencies  
 
 ## 🔧 Installation
 To set up the project on your local system:
-```bash
-# Clone the repository
-git clone https://github.com/your-repo/Customer-Personality-Analysis.git
-
-# Navigate to the project directory
-cd Customer-Personality-Analysis
-
-# Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-# Install dependencies
-pip install -r requirements.txt
-```
+1. Clone the repository:  
+   `git clone https://github.com/your-repo/Customer-Personality-Analysis.git`
+2. Navigate to the project directory:  
+   `cd Customer-Personality-Analysis`
+3. Create a virtual environment:
+   - `python -m venv venv`
+   - On Windows: `venv\Scripts\activate`
+   - On Mac/Linux: `source venv/bin/activate`
+4. Install dependencies:  
+   `pip install -r requirements.txt`
 
 ## ▶️ Usage
 1. **Data Preprocessing:** Run preprocessing scripts to clean and prepare data.
 2. **Model Training:** Train the model using `train.py` in the `src/` directory.
-3. **Run Streamlit App:**
-   ```bash
-   streamlit run streamlit_app/app.py
-   ```
+3. **Run Streamlit App:**  
+   `streamlit run streamlit_app/app.py`
 4. **Make Predictions:** Input customer details to classify their response probability.
 
 ## 📊 Technology Stack
@@ -55,7 +46,7 @@ pip install -r requirements.txt
 | Programming Language  | Python |
 | Libraries             | Pandas, NumPy, Scikit-learn, Matplotlib, Streamlit |
 | Model                 | Random Forest Classifier |
-| Deployment            | Streamlit, GitHub, Heroku |
+| Deployment            | Streamlit|
 
 ## 🏆 Results
 - **Accuracy:** Above 85% in predicting customer responses.
@@ -74,6 +65,5 @@ Contributions are welcome! Feel free to fork the repository, raise issues, and s
 This project is licensed under the **MIT License**.
 
 ---
-
-
+🔗 **GitHub Repository:** [Your Repo Link](https://github.com/your-repo/Customer-Personality-Analysis)
 
