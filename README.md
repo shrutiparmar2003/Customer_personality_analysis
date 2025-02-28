@@ -65,5 +65,5 @@ Contributions are welcome! Feel free to fork the repository, raise issues, and s
 This project is licensed under the **MIT License**.
 
 ---
-🔗 **GitHub Repository:** [Your Repo Link](https://github.com/your-repo/Customer-Personality-Analysis)
+
 
